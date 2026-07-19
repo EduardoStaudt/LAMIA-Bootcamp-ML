@@ -1,0 +1,41 @@
+class Carro: 
+    def __init__(self):
+        self.__velocidade = 0
+        
+    @property
+    def velocidade(self):
+        return self.__velocidade
+
+    def acelerar(self):
+        self.__velocidade += 5
+        return self.__velocidade
+    
+    def frear(self):
+        self.__velocidade -= 5
+        return self.__velocidade
+    
+class Uno(Carro):
+    pass
+
+class Ferrari(Carro):
+    def acelerar(self):
+        super().acelerar()
+        return super().acelerar() 
+
+c1 = Uno()
+print(c1.acelerar())
+print(c1.acelerar())
+print(c1.acelerar())
+print(c1.frear())
+print(c1.frear())
+print(c1.frear())
+print(c1.velocidade)
+
+c2 = Ferrari()
+print(c2.acelerar())
+print(c2.acelerar())
+print(c2.acelerar())
+print(c2.frear())
+print(c2.frear())
+print(c2.frear())
+print(c2.velocidade)
