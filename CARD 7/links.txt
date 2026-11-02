@@ -1,0 +1,5 @@
+LINKS DOS NOTEBOOKS NA NUVEM
+
+Colab: https://colab.research.google.com/drive/1dI8wY_14_cubFkq5lY3-xU91k5hwYcW-?usp=sharing
+
+Kaggle: https://www.kaggle.com/code/eduardoandreistaudt/example-notebook
