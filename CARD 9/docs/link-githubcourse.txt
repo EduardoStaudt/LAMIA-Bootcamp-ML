@@ -1,0 +1,3 @@
+Link:https://github.com/EduardoStaudt/github-course
+
+Este github course é o mesmo que está aqui dentro desse repo ele está em repos separados só por conta da realizaçaõ do curso.
